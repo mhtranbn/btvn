@@ -21,7 +21,7 @@ class BootLogic: NSObject {
             [TITLE: "Demo UIView",CLASS: "DemoUIView"],
             [TITLE: "Demo Control",CLASS: "DemoControl"],
             [TITLE: "Bon Fire",CLASS: "BonFire"],
-            [TITLE: "Flying Bird",CLASS: "FlyBird"]
+            [TITLE: "Flying Bird",CLASS: "Flying_Bird"]
             ]
         ]
        

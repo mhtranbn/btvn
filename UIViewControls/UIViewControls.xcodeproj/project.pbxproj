@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3287563819D0E88400EE26FB /* Flying Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3287563719D0E88400EE26FB /* Flying Bird.swift */; };
+		3287563C19D0F62600EE26FB /* biendong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3287563B19D0F62600EE26FB /* biendong.jpg */; };
+		3287563E19D0F7F200EE26FB /* bocau.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3287563D19D0F7F200EE26FB /* bocau.jpeg */; };
+		3287564019D0F95500EE26FB /* V_t_c_p.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3287563F19D0F95500EE26FB /* V_t_c_p.jpg */; };
 		E2F588CE19CC506F00B8CE86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F588CD19CC506F00B8CE86 /* Images.xcassets */; };
 		E2F588EB19CC50F200B8CE86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F588E719CC50F200B8CE86 /* AppDelegate.swift */; };
 		E2F588EC19CC50F200B8CE86 /* BootLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F588E819CC50F200B8CE86 /* BootLogic.swift */; };
@@ -37,6 +41,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3287563719D0E88400EE26FB /* Flying Bird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Flying Bird.swift"; sourceTree = "<group>"; };
+		3287563B19D0F62600EE26FB /* biendong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = biendong.jpg; sourceTree = "<group>"; };
+		3287563D19D0F7F200EE26FB /* bocau.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bocau.jpeg; sourceTree = "<group>"; };
+		3287563F19D0F95500EE26FB /* V_t_c_p.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = V_t_c_p.jpg; sourceTree = "<group>"; };
 		E2F588C119CC506F00B8CE86 /* UIViewControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F588C519CC506F00B8CE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2F588CD19CC506F00B8CE86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -138,6 +146,7 @@
 				E2F5891C19CC771100B8CE86 /* FlyBird.h */,
 				E2F5891D19CC771100B8CE86 /* FlyBird.m */,
 				E2F5891B19CC771100B8CE86 /* UIViewControls-Bridging-Header.h */,
+				3287563719D0E88400EE26FB /* Flying Bird.swift */,
 			);
 			name = Basic;
 			sourceTree = "<group>";
@@ -145,6 +154,9 @@
 		E2F588F619CC723A00B8CE86 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3287563F19D0F95500EE26FB /* V_t_c_p.jpg */,
+				3287563D19D0F7F200EE26FB /* bocau.jpeg */,
+				3287563B19D0F62600EE26FB /* biendong.jpg */,
 				E2F588F719CC725500B8CE86 /* campFire01.gif */,
 				E2F588F819CC725500B8CE86 /* campFire02.gif */,
 				E2F588F919CC725500B8CE86 /* campFire03.gif */,
@@ -223,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3287564019D0F95500EE26FB /* V_t_c_p.jpg in Resources */,
 				E2F5891719CC725500B8CE86 /* campFire16.gif in Resources */,
 				E2F5891419CC725500B8CE86 /* campFire13.gif in Resources */,
 				E2F5891319CC725500B8CE86 /* campFire12.gif in Resources */,
@@ -230,12 +243,14 @@
 				E2F5890E19CC725500B8CE86 /* campFire07.gif in Resources */,
 				E2F5890C19CC725500B8CE86 /* campFire05.gif in Resources */,
 				E2F5890B19CC725500B8CE86 /* campFire04.gif in Resources */,
+				3287563C19D0F62600EE26FB /* biendong.jpg in Resources */,
 				E2F5891619CC725500B8CE86 /* campFire15.gif in Resources */,
 				E2F5891019CC725500B8CE86 /* campFire09.gif in Resources */,
 				E2F588CE19CC506F00B8CE86 /* Images.xcassets in Resources */,
 				E2F5891119CC725500B8CE86 /* campFire10.gif in Resources */,
 				E2F5890F19CC725500B8CE86 /* campFire08.gif in Resources */,
 				E2F5890819CC725500B8CE86 /* campFire01.gif in Resources */,
+				3287563E19D0F7F200EE26FB /* bocau.jpeg in Resources */,
 				E2F588F519CC704400B8CE86 /* beauty.jpg in Resources */,
 				E2F5891219CC725500B8CE86 /* campFire11.gif in Resources */,
 				E2F5890919CC725500B8CE86 /* campFire02.gif in Resources */,
@@ -260,6 +275,7 @@
 				E2F588EC19CC50F200B8CE86 /* BootLogic.swift in Sources */,
 				E2F588F319CC54C800B8CE86 /* DemoControl.swift in Sources */,
 				E2F588EB19CC50F200B8CE86 /* AppDelegate.swift in Sources */,
+				3287563819D0E88400EE26FB /* Flying Bird.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +403,7 @@
 				E2F588E219CC506F00B8CE86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
