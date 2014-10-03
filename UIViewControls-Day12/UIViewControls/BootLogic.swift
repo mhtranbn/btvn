@@ -18,6 +18,7 @@ class BootLogic: NSObject {
         let mainScreen = MainScreen(style: UITableViewStyle.Grouped)
         
         var basic = [SECTION: "Basic",MENU:[
+            [TITLE: "Mario",CLASS: "Mario"],
             [TITLE: "Demo UIView",CLASS: "DemoUIView"],
             [TITLE: "Demo Control",CLASS: "DemoControl"],
             [TITLE: "Endulum",CLASS: "endulum"],
@@ -34,8 +35,8 @@ class BootLogic: NSObject {
             [TITLE: "Rolling Ball",CLASS: "RollingBall"],
             [TITLE: "Trailing Stars",CLASS: "TrailingStars"],
             [TITLE: "Drop Ball",CLASS: "DropBall"],
-            [TITLE: "Ball on Table",CLASS: "BallOnTable"],
-            [TITLE: "Mario",CLASS: "Mario"]
+            [TITLE: "Ball on Table",CLASS: "BallOnTable"]
+            
             ]
         ]
         

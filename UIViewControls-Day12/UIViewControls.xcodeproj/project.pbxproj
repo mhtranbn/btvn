@@ -9,9 +9,19 @@
 /* Begin PBXBuildFile section */
 		3207A76619DBFCE8003E28D8 /* endulum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207A76519DBFCE8003E28D8 /* endulum.swift */; };
 		3207A76819DBFE99003E28D8 /* pendulum.png in Resources */ = {isa = PBXBuildFile; fileRef = 3207A76719DBFE99003E28D8 /* pendulum.png */; };
-		32BCD2E219DAF04D007DE44B /* box.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32BCD2E119DAF04D007DE44B /* box.jpg */; };
-		32BCD2E619DAF9CD007DE44B /* box1.png in Resources */ = {isa = PBXBuildFile; fileRef = 32BCD2E519DAF9CD007DE44B /* box1.png */; };
 		32E0814619DD50CD00FA2599 /* test slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E0814519DD50CD00FA2599 /* test slider.swift */; };
+		32E0814C19DDD89000FA2599 /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E0814719DDD89000FA2599 /* box.png */; };
+		32E0814D19DDD89000FA2599 /* box1.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E0814819DDD89000FA2599 /* box1.png */; };
+		32E0814E19DDD89000FA2599 /* box2.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E0814919DDD89000FA2599 /* box2.png */; };
+		32E0814F19DDD89000FA2599 /* box3.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E0814A19DDD89000FA2599 /* box3.png */; };
+		32E0815019DDD89000FA2599 /* box4.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E0814B19DDD89000FA2599 /* box4.png */; };
+		32E0816319DDE20900FA2599 /* box5.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E0815D19DDE20900FA2599 /* box5.png */; };
+		32E0816419DDE20900FA2599 /* box6.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E0815E19DDE20900FA2599 /* box6.png */; };
+		32E0816519DDE20900FA2599 /* box7.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E0815F19DDE20900FA2599 /* box7.png */; };
+		32E0816619DDE20900FA2599 /* box8.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E0816019DDE20900FA2599 /* box8.png */; };
+		32E0816719DDE20900FA2599 /* box9.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E0816119DDE20900FA2599 /* box9.png */; };
+		32E0816819DDE20900FA2599 /* box10.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E0816219DDE20900FA2599 /* box10.png */; };
+		32E0816E19DDFE5E00FA2599 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E0816D19DDFE5E00FA2599 /* 9.png */; };
 		E232845919D572450078A5BA /* EarthAroundSun.swift in Sources */ = {isa = PBXBuildFile; fileRef = E232845819D572450078A5BA /* EarthAroundSun.swift */; };
 		E232845B19D57A1F0078A5BA /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = E232845A19D57A1F0078A5BA /* earth.png */; };
 		E232845D19D57A650078A5BA /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = E232845C19D57A650078A5BA /* sun.png */; };
@@ -80,9 +90,19 @@
 /* Begin PBXFileReference section */
 		3207A76519DBFCE8003E28D8 /* endulum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = endulum.swift; sourceTree = "<group>"; };
 		3207A76719DBFE99003E28D8 /* pendulum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pendulum.png; sourceTree = "<group>"; };
-		32BCD2E119DAF04D007DE44B /* box.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = box.jpg; sourceTree = "<group>"; };
-		32BCD2E519DAF9CD007DE44B /* box1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box1.png; sourceTree = "<group>"; };
 		32E0814519DD50CD00FA2599 /* test slider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "test slider.swift"; sourceTree = "<group>"; };
+		32E0814719DDD89000FA2599 /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
+		32E0814819DDD89000FA2599 /* box1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box1.png; sourceTree = "<group>"; };
+		32E0814919DDD89000FA2599 /* box2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box2.png; sourceTree = "<group>"; };
+		32E0814A19DDD89000FA2599 /* box3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box3.png; sourceTree = "<group>"; };
+		32E0814B19DDD89000FA2599 /* box4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box4.png; sourceTree = "<group>"; };
+		32E0815D19DDE20900FA2599 /* box5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box5.png; sourceTree = "<group>"; };
+		32E0815E19DDE20900FA2599 /* box6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box6.png; sourceTree = "<group>"; };
+		32E0815F19DDE20900FA2599 /* box7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box7.png; sourceTree = "<group>"; };
+		32E0816019DDE20900FA2599 /* box8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box8.png; sourceTree = "<group>"; };
+		32E0816119DDE20900FA2599 /* box9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box9.png; sourceTree = "<group>"; };
+		32E0816219DDE20900FA2599 /* box10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box10.png; sourceTree = "<group>"; };
+		32E0816D19DDFE5E00FA2599 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
 		E232845819D572450078A5BA /* EarthAroundSun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarthAroundSun.swift; sourceTree = "<group>"; };
 		E232845A19D57A1F0078A5BA /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
 		E232845C19D57A650078A5BA /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
@@ -175,8 +195,18 @@
 		E269D4BE19DA692E00762687 /* Mario */ = {
 			isa = PBXGroup;
 			children = (
-				32BCD2E519DAF9CD007DE44B /* box1.png */,
-				32BCD2E119DAF04D007DE44B /* box.jpg */,
+				32E0816D19DDFE5E00FA2599 /* 9.png */,
+				32E0815D19DDE20900FA2599 /* box5.png */,
+				32E0815E19DDE20900FA2599 /* box6.png */,
+				32E0815F19DDE20900FA2599 /* box7.png */,
+				32E0816019DDE20900FA2599 /* box8.png */,
+				32E0816119DDE20900FA2599 /* box9.png */,
+				32E0816219DDE20900FA2599 /* box10.png */,
+				32E0814719DDD89000FA2599 /* box.png */,
+				32E0814819DDD89000FA2599 /* box1.png */,
+				32E0814919DDD89000FA2599 /* box2.png */,
+				32E0814A19DDD89000FA2599 /* box3.png */,
+				32E0814B19DDD89000FA2599 /* box4.png */,
 				E269D4CF19DA989100762687 /* city1.png */,
 				E269D4D019DA989100762687 /* city2.png */,
 				E269D4D119DA989100762687 /* city3.png */,
@@ -200,7 +230,6 @@
 				E28FCF6F19D920CE0064B26E /* RollingBall.swift */,
 				E28FCF7319D9477E0064B26E /* TrailingStars.swift */,
 				E28FCF7519D957270064B26E /* DropBall.swift */,
-				E28FCF7719D96F1E0064B26E /* Mario.swift */,
 			);
 			name = Animation;
 			sourceTree = "<group>";
@@ -257,6 +286,7 @@
 		E2F588EF19CC546A00B8CE86 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				E28FCF7719D96F1E0064B26E /* Mario.swift */,
 				E2F588F019CC54B600B8CE86 /* DemoUIView.swift */,
 				E2F588F219CC54C800B8CE86 /* DemoControl.swift */,
 				E2F588F419CC704400B8CE86 /* beauty.jpg */,
@@ -372,20 +402,23 @@
 			files = (
 				E269D4D419DA989100762687 /* city3.png in Resources */,
 				E26BEDA919D2B8F5003DAE92 /* bird2.png in Resources */,
+				32E0816619DDE20900FA2599 /* box8.png in Resources */,
 				E269D4C719DA694000762687 /* 1.png in Resources */,
 				E269D4C819DA694000762687 /* 2.png in Resources */,
+				32E0814F19DDD89000FA2599 /* box3.png in Resources */,
 				E269D4C919DA694000762687 /* 3.png in Resources */,
 				E2F5891719CC725500B8CE86 /* campFire16.gif in Resources */,
 				E2F5891419CC725500B8CE86 /* campFire13.gif in Resources */,
 				E269D4CC19DA694000762687 /* 6.png in Resources */,
 				E269D4CD19DA694000762687 /* 7.png in Resources */,
 				3207A76819DBFE99003E28D8 /* pendulum.png in Resources */,
-				32BCD2E619DAF9CD007DE44B /* box1.png in Resources */,
 				E2F5891319CC725500B8CE86 /* campFire12.gif in Resources */,
 				E2F5890A19CC725500B8CE86 /* campFire03.gif in Resources */,
 				E232845B19D57A1F0078A5BA /* earth.png in Resources */,
+				32E0816E19DDFE5E00FA2599 /* 9.png in Resources */,
 				E28FCF6D19D91A7D0064B26E /* red.png in Resources */,
 				E2F5890E19CC725500B8CE86 /* campFire07.gif in Resources */,
+				32E0815019DDD89000FA2599 /* box4.png in Resources */,
 				E2F5890C19CC725500B8CE86 /* campFire05.gif in Resources */,
 				E232845D19D57A650078A5BA /* sun.png in Resources */,
 				E26BEDA819D2B8F5003DAE92 /* bird1.png in Resources */,
@@ -393,28 +426,35 @@
 				E269D4CE19DA694000762687 /* 8.png in Resources */,
 				E269D4D219DA989100762687 /* city1.png in Resources */,
 				E26BEDAB19D2B8F5003DAE92 /* bird4.png in Resources */,
+				32E0816519DDE20900FA2599 /* box7.png in Resources */,
 				E2F5890B19CC725500B8CE86 /* campFire04.gif in Resources */,
 				E2F5891619CC725500B8CE86 /* campFire15.gif in Resources */,
+				32E0814D19DDD89000FA2599 /* box1.png in Resources */,
 				E28FCF6B19D91A7D0064B26E /* brown.png in Resources */,
 				E28FCF6E19D91A7D0064B26E /* violet.png in Resources */,
+				32E0816719DDE20900FA2599 /* box9.png in Resources */,
 				E2F5891019CC725500B8CE86 /* campFire09.gif in Resources */,
+				32E0816419DDE20900FA2599 /* box6.png in Resources */,
 				E269D4CB19DA694000762687 /* 5.png in Resources */,
 				E2F588CE19CC506F00B8CE86 /* Images.xcassets in Resources */,
+				32E0814C19DDD89000FA2599 /* box.png in Resources */,
 				E2F5891119CC725500B8CE86 /* campFire10.gif in Resources */,
+				32E0816819DDE20900FA2599 /* box10.png in Resources */,
 				E269D4D319DA989100762687 /* city2.png in Resources */,
 				E2F5890F19CC725500B8CE86 /* campFire08.gif in Resources */,
 				E2F5890819CC725500B8CE86 /* campFire01.gif in Resources */,
 				E2F588F519CC704400B8CE86 /* beauty.jpg in Resources */,
 				E26BEDA719D2B8F5003DAE92 /* bird0.png in Resources */,
 				E2F5891219CC725500B8CE86 /* campFire11.gif in Resources */,
+				32E0814E19DDD89000FA2599 /* box2.png in Resources */,
 				E26BEDAC19D2B8F5003DAE92 /* bird5.png in Resources */,
 				E269D4CA19DA694000762687 /* 4.png in Resources */,
 				E2F5890919CC725500B8CE86 /* campFire02.gif in Resources */,
 				E28FCF7219D921B50064B26E /* football.png in Resources */,
 				E24AF16B19D0305C00258C0F /* bird.png in Resources */,
 				E2F5891519CC725500B8CE86 /* campFire14.gif in Resources */,
+				32E0816319DDE20900FA2599 /* box5.png in Resources */,
 				E28FCF6C19D91A7D0064B26E /* green.png in Resources */,
-				32BCD2E219DAF04D007DE44B /* box.jpg in Resources */,
 				E2F5891819CC725500B8CE86 /* campFire17.gif in Resources */,
 				E2F5890D19CC725500B8CE86 /* campFire06.gif in Resources */,
 			);
