@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6249" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6249"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AboveUndu" customModule="DemoAdaptiveLayout" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aKA-cW-tCZ" userLabel="1">
+                    <color key="backgroundColor" red="0.0" green="0.005442569633" blue="0.40393597149999999" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5ji-ds-aqG" userLabel="2">
+                    <color key="backgroundColor" red="0.0" green="0.005442569633" blue="0.40393597149999999" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r3Z-yy-6Be" userLabel="4">
+                    <color key="backgroundColor" red="0.0" green="0.005442569633" blue="0.40393597149999999" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o20-0i-Khv" userLabel="1">
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nyl-bG-vW1" userLabel="3">
+                    <color key="backgroundColor" red="0.0" green="0.005442569633" blue="0.40393597149999999" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="aKA-cW-tCZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="5pT-N3-ASM"/>
+                <constraint firstItem="nyl-bG-vW1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="AEf-p3-GyC"/>
+                <constraint firstAttribute="bottom" secondItem="nyl-bG-vW1" secondAttribute="bottom" constant="10" id="DOy-2p-w7E"/>
+                <constraint firstItem="o20-0i-Khv" firstAttribute="top" secondItem="5ji-ds-aqG" secondAttribute="bottom" constant="20" id="EsG-Xn-8rX"/>
+                <constraint firstItem="nyl-bG-vW1" firstAttribute="top" secondItem="o20-0i-Khv" secondAttribute="bottom" constant="20" id="GQ7-MZ-hjT"/>
+                <constraint firstItem="o20-0i-Khv" firstAttribute="leading" secondItem="nyl-bG-vW1" secondAttribute="trailing" constant="20" id="HoH-4g-edr"/>
+                <constraint firstItem="aKA-cW-tCZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="JjI-Qx-sHa"/>
+                <constraint firstItem="5ji-ds-aqG" firstAttribute="height" secondItem="aKA-cW-tCZ" secondAttribute="height" id="Nhl-DA-lZz"/>
+                <constraint firstItem="r3Z-yy-6Be" firstAttribute="top" secondItem="o20-0i-Khv" secondAttribute="bottom" constant="20" id="QAX-og-l8p"/>
+                <constraint firstItem="5ji-ds-aqG" firstAttribute="height" secondItem="nyl-bG-vW1" secondAttribute="height" id="QJh-H5-i63"/>
+                <constraint firstAttribute="trailing" secondItem="r3Z-yy-6Be" secondAttribute="trailing" constant="10" id="UzA-rV-hJA"/>
+                <constraint firstItem="o20-0i-Khv" firstAttribute="leading" secondItem="aKA-cW-tCZ" secondAttribute="trailing" constant="20" id="X5o-OE-rP2"/>
+                <constraint firstItem="5ji-ds-aqG" firstAttribute="width" secondItem="nyl-bG-vW1" secondAttribute="width" id="YhX-4Y-WxC"/>
+                <constraint firstItem="5ji-ds-aqG" firstAttribute="leading" secondItem="o20-0i-Khv" secondAttribute="trailing" constant="20" id="cXE-Es-hxG"/>
+                <constraint firstItem="o20-0i-Khv" firstAttribute="top" secondItem="aKA-cW-tCZ" secondAttribute="bottom" constant="20" id="eRL-YO-vqn"/>
+                <constraint firstItem="5ji-ds-aqG" firstAttribute="width" secondItem="aKA-cW-tCZ" secondAttribute="width" id="idf-ty-rAb"/>
+                <constraint firstItem="r3Z-yy-6Be" firstAttribute="leading" secondItem="o20-0i-Khv" secondAttribute="trailing" constant="20" id="k2t-C4-vG9"/>
+                <constraint firstAttribute="trailing" secondItem="5ji-ds-aqG" secondAttribute="trailing" constant="10" id="qGn-fM-CIu"/>
+                <constraint firstAttribute="bottom" secondItem="r3Z-yy-6Be" secondAttribute="bottom" constant="10" id="vBW-bm-Q7l"/>
+                <constraint firstItem="5ji-ds-aqG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="vIO-lt-zcw"/>
+                <constraint firstItem="5ji-ds-aqG" firstAttribute="width" secondItem="r3Z-yy-6Be" secondAttribute="width" id="x34-2S-4BJ"/>
+                <constraint firstItem="5ji-ds-aqG" firstAttribute="height" secondItem="r3Z-yy-6Be" secondAttribute="height" id="xjd-X8-Ndn"/>
+            </constraints>
+            <point key="canvasLocation" x="573" y="452"/>
+        </view>
+    </objects>
+</document>
