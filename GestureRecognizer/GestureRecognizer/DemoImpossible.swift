@@ -7,26 +7,27 @@
 //
 
 import UIKit
-import AudioToolbox
+import AVFoundation
 
 
-class DemoImpossible: UIViewController {
+class DemoImpossible: UIViewController,AVAudioPlayerDelegate {
     var hv, bi, gameOver: UIImageView?
     var xoay = M_PI_2 * 0
     var vY : Double = 0
     var timer: NSTimer?
-    var delTa : Double = 0.005
+    var delTa : Double = 0.008
     var t: Double = 0.016
     var chamhv: Bool?
     var imageIndex: Int?
     var score: NSNumber?
+    
     var scoreLabel: UILabel?
     let imagefull = ["red.png", "blue.png", "green.png", "yelow.png"]
+    var audioPlayer = AVAudioPlayer()
     
     
     override func loadView() {
         super.loadView()
-        let chaChingSound: SystemSoundID = createChaChingSound()
         var size = self.view.bounds.size
         self.view.backgroundColor = UIColor.whiteColor()
         self.edgesForExtendedLayout = UIRectEdge.None
@@ -49,17 +50,17 @@ class DemoImpossible: UIViewController {
         self.view.addSubview(scoreLabel!)
         scoreLabel?.center.x = self.view.bounds.size.width/2
         scoreLabel?.center.y = 30
-
+        chamhv = false
         //tap de xoay hinh vuong 1 goc pi/2
         let tap = UITapGestureRecognizer(target: self, action: "onTap:")
         self.view.addGestureRecognizer(tap)
-        chamhv = false
-
+        
         timer = NSTimer.scheduledTimerWithTimeInterval(t, target: self, selector: "biRoi:", userInfo: nil, repeats: true)
     }
+    //tao am thanh khi bi roi dung mau hv
+    
     //bi roi xuong voi gia toc trong truong
     func biRoi(timer: NSTimer) {
-let chaChingSound: SystemSoundID = createChaChingSound()
         //tinh van toc tai thoi diem t
         vY += 9.8 * delTa
         var y1 = Double(bi!.center.y) + vY
@@ -70,15 +71,20 @@ let chaChingSound: SystemSoundID = createChaChingSound()
         // kiem tra xem bi cham hv
         
         if(!chamhv!) {
-            if (y1 >= Double(hv!.center.y - hv!.bounds.size.height * 0.5 + bi!.bounds.size.width * 0.5)) {
+            if (y1 - 10 >= Double(hv!.center.y - hv!.bounds.size.height * 0.5 + bi!.bounds.size.width * 0.5)) {
                 chamhv = true
                 //kiem tra mau bi vs mau hv
                 
                 if (imageIndex! == Int(((xoay / M_PI_2) % 4))) {
+                    xoay = Double(imageIndex!) * M_PI_2
+                    NSLog("\n \(imageIndex)")
+                    NSLog("\n \(Int(((xoay / M_PI_2) % 4)))")
                     NSLog("\n bi cung mau hv")
-                    AudioServicesPlaySystemSound(chaChingSound)
+                    AudioScrore()
                     reset()
                 } else {
+                    NSLog("\n \(imageIndex!)")
+                    NSLog("\n \(Int(((xoay / M_PI_2) % 4)))")
                     NSLog("\n bi khac mau")
                     stop()
                 }
@@ -87,13 +93,26 @@ let chaChingSound: SystemSoundID = createChaChingSound()
         
     }
     
-    func createChaChingSound() -> SystemSoundID {
-        var soundID: SystemSoundID = 0
-        let soundURL = CFBundleCopyResourceURL(CFBundleGetMainBundle(), "emptytrash", "aiff", nil)
-        AudioServicesCreateSystemSoundID(soundURL, &soundID)
-//        CFRelease(soundURL)
-        return soundID
+    func AudioScrore() {
+        var alertSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("point", ofType: "wav")!)
+        AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback, error: nil)
+        AVAudioSession.sharedInstance().setActive(true, error: nil)
+        var error:NSError?
+        audioPlayer = AVAudioPlayer(contentsOfURL: alertSound, error: &error)
+        audioPlayer.prepareToPlay()
+        audioPlayer.play()
     }
+    
+    func AudioGameOver() {
+        var alertSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("gameover", ofType: "wav")!)
+        AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback, error: nil)
+        AVAudioSession.sharedInstance().setActive(true, error: nil)
+        var error:NSError?
+        audioPlayer = AVAudioPlayer(contentsOfURL: alertSound, error: &error)
+        audioPlayer.prepareToPlay()
+        audioPlayer.play()
+    }
+
     
     func reset() {
         NSTimer.scheduledTimerWithTimeInterval(t, target: self, selector: "reset1:", userInfo: nil, repeats: false)
@@ -113,7 +132,7 @@ let chaChingSound: SystemSoundID = createChaChingSound()
         // tang toc do bi roi len dan theo thoi gian
         t -= 0.0002
         timer = NSTimer.scheduledTimerWithTimeInterval(t, target: self, selector: "biRoi:", userInfo: nil, repeats: true)
-        score = score! + 1
+        score = Int(score!) + 1
         NSLog("\n cong diem")
         scoreLabel!.text = "SCORE:" + score!.stringValue
     }
@@ -132,10 +151,11 @@ let chaChingSound: SystemSoundID = createChaChingSound()
         gameOver?.image = UIImage(named: "gameOver.png")
         self.view.addSubview(gameOver!)
         NSLog("\n hien game over banner")
+        AudioGameOver()
         timer?.invalidate()
     }
     func onTap(tap : UITapGestureRecognizer) {
-        xoay += M_PI_2
+        xoay = xoay + M_PI_2
         self.hv!.transform = CGAffineTransformMakeRotation(CGFloat(xoay))
         NSLog("\n tap \(xoay/M_PI_2)")
     }
@@ -146,6 +166,4 @@ let chaChingSound: SystemSoundID = createChaChingSound()
         timer = nil
     }
     
-    
-
 }

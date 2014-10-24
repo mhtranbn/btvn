@@ -30,11 +30,14 @@
 		32B7F58119E91AAE0069790C /* DemoNemrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B7F58019E91AAE0069790C /* DemoNemrac.swift */; };
 		32B7F58319E91CFF0069790C /* giay.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B7F58219E91CFF0069790C /* giay.png */; };
 		32B7F58519E91F070069790C /* bin.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B7F58419E91F070069790C /* bin.png */; };
-		32C15C7F19EE854B0028EBF5 /* emptytrash.aif in Resources */ = {isa = PBXBuildFile; fileRef = 32C15C7E19EE854B0028EBF5 /* emptytrash.aif */; };
 		32C36A4F19DED9E900EB96AA /* InteriorDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C36A4E19DED9E900EB96AA /* InteriorDesign.swift */; };
 		32C36A5119DEDAFA00EB96AA /* floorplan.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C36A5019DEDAFA00EB96AA /* floorplan.png */; };
 		32C36A5319DEDB1900EB96AA /* cay1.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C36A5219DEDB1900EB96AA /* cay1.png */; };
 		32C36A5519DEDB2900EB96AA /* cay2.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C36A5419DEDB2900EB96AA /* cay2.png */; };
+		32E96BC819EF144B0018387F /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E96BC719EF144B0018387F /* Music.swift */; };
+		32E96BCB19EF17EF0018387F /* gameover.wav in Resources */ = {isa = PBXBuildFile; fileRef = 32E96BC919EF17EF0018387F /* gameover.wav */; };
+		32E96BCC19EF17EF0018387F /* point.wav in Resources */ = {isa = PBXBuildFile; fileRef = 32E96BCA19EF17EF0018387F /* point.wav */; };
+		32E96BCE19EF1A010018387F /* KiepRongBuon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32E96BCD19EF1A010018387F /* KiepRongBuon.mp3 */; };
 		E264CDDF19DE9CA90052F50A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E264CDDE19DE9CA90052F50A /* Images.xcassets */; };
 		E264CDEE19DE9CA90052F50A /* GestureRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264CDED19DE9CA90052F50A /* GestureRecognizerTests.swift */; };
 		E264CE0B19DE9DD10052F50A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264CE0719DE9DD10052F50A /* AppDelegate.swift */; };
@@ -89,11 +92,14 @@
 		32B7F58019E91AAE0069790C /* DemoNemrac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoNemrac.swift; sourceTree = "<group>"; };
 		32B7F58219E91CFF0069790C /* giay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giay.png; sourceTree = "<group>"; };
 		32B7F58419E91F070069790C /* bin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bin.png; sourceTree = "<group>"; };
-		32C15C7E19EE854B0028EBF5 /* emptytrash.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = emptytrash.aif; sourceTree = "<group>"; };
 		32C36A4E19DED9E900EB96AA /* InteriorDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteriorDesign.swift; sourceTree = "<group>"; };
 		32C36A5019DEDAFA00EB96AA /* floorplan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floorplan.png; sourceTree = "<group>"; };
 		32C36A5219DEDB1900EB96AA /* cay1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cay1.png; sourceTree = "<group>"; };
 		32C36A5419DEDB2900EB96AA /* cay2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cay2.png; sourceTree = "<group>"; };
+		32E96BC719EF144B0018387F /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		32E96BC919EF17EF0018387F /* gameover.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameover.wav; sourceTree = "<group>"; };
+		32E96BCA19EF17EF0018387F /* point.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = point.wav; sourceTree = "<group>"; };
+		32E96BCD19EF1A010018387F /* KiepRongBuon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KiepRongBuon.mp3; sourceTree = "<group>"; };
 		E264CDD219DE9CA90052F50A /* GestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E264CDD619DE9CA90052F50A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E264CDDE19DE9CA90052F50A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -140,7 +146,9 @@
 		32C15C7B19EE843E0028EBF5 /* sound */ = {
 			isa = PBXGroup;
 			children = (
-				32C15C7E19EE854B0028EBF5 /* emptytrash.aif */,
+				32E96BCD19EF1A010018387F /* KiepRongBuon.mp3 */,
+				32E96BC919EF17EF0018387F /* gameover.wav */,
+				32E96BCA19EF17EF0018387F /* point.wav */,
 			);
 			name = sound;
 			sourceTree = "<group>";
@@ -251,6 +259,7 @@
 		E264CE1419DEA0070052F50A /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				32E96BC719EF144B0018387F /* Music.swift */,
 				32A12E8319E5697A00C60CE1 /* DemoBia.swift */,
 				3231C1EF19EB4479004526D9 /* DemoImpossible.swift */,
 				3231C1E719EAEFED004526D9 /* DemoSutbong.swift */,
@@ -346,8 +355,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E96BCB19EF17EF0018387F /* gameover.wav in Resources */,
+				32E96BCE19EF1A010018387F /* KiepRongBuon.mp3 in Resources */,
 				E264CE1A19DEA44E0052F50A /* target.png in Resources */,
-				32C15C7F19EE854B0028EBF5 /* emptytrash.aif in Resources */,
 				E264CE1E19DEA7BB0052F50A /* dial.png in Resources */,
 				321A140B19EC3C40009CBF82 /* sanbong.png in Resources */,
 				3231C1EE19EB3E8A004526D9 /* thumon.png in Resources */,
@@ -366,6 +376,7 @@
 				32A12E9319E58C3000C60CE1 /* bi13.png in Resources */,
 				32A12E9619E58E8300C60CE1 /* gay1.png in Resources */,
 				32B7F58319E91CFF0069790C /* giay.png in Resources */,
+				32E96BCC19EF17EF0018387F /* point.wav in Resources */,
 				32A12E8819E5761200C60CE1 /* ban1.jpg in Resources */,
 				32A12E9219E58C3000C60CE1 /* bi10.png in Resources */,
 				32A12E8A19E57DFD00C60CE1 /* bi0.png in Resources */,
@@ -400,6 +411,7 @@
 				E264CE0D19DE9DD10052F50A /* ConsoleScreen.swift in Sources */,
 				3231C1F019EB4479004526D9 /* DemoImpossible.swift in Sources */,
 				32B7F58119E91AAE0069790C /* DemoNemrac.swift in Sources */,
+				32E96BC819EF144B0018387F /* Music.swift in Sources */,
 				E264CE2A19DEB6120052F50A /* DemoPinchRotate.swift in Sources */,
 				E264CE0C19DE9DD10052F50A /* BootLogic.swift in Sources */,
 				E264CE1619DEA02B0052F50A /* DemoTap.swift in Sources */,

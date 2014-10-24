@@ -18,6 +18,7 @@ class BootLogic: NSObject {
         let mainScreen = MainScreen(style: UITableViewStyle.Grouped)
         
         var basic = [SECTION: "Basic",MENU:[
+            [TITLE: "MusicPlayer",CLASS: "Music"],
             [TITLE: "Tap",CLASS: "DemoTap"],
             [TITLE: "Impossible Rush",CLASS: "DemoImpossible"],
             [TITLE: "Nemrac",CLASS: "DemoNemrac"],
@@ -31,11 +32,11 @@ class BootLogic: NSObject {
             [TITLE: "Pinch Rotate",CLASS: "DemoPinchRotate"]
             ]
         ]        
-        mainScreen.menu = [basic]
-        mainScreen.title = "Gesture Recognizer"
-        mainScreen.about = "Gesture Recognizer iOS8"
+        mainScreen!.menu = [basic]
+        mainScreen!.title = "Gesture Recognizer"
+        mainScreen!.about = "Gesture Recognizer iOS8"
         
-        let nav = UINavigationController(rootViewController: mainScreen)
+        let nav = UINavigationController(rootViewController: mainScreen!)
         
         window.rootViewController = nav        
       

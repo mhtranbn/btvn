@@ -129,7 +129,7 @@ class DemoSutbong: UIViewController {
                             stop()
                             NSLog("Vao GOL")
                             ketqua!.text = "Vao GON"
-                            score = score! + 1
+                            score = Int(score!) + 1
                             scoreLabel!.text = "SCORE:" + score!.stringValue
                             
                         }else
