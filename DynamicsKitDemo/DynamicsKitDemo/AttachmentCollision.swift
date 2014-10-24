@@ -28,8 +28,8 @@ class AttachmentCollision: UIViewController {
     func configureDynamicKit() {
         animator = UIDynamicAnimator(referenceView: self.view)
         
-        gravity.gravityDirection = CGVectorMake(0.0, 0.8) //Thử đổi giá trị x, y của vector xem kết quả thế nào
-        animator!.addBehavior(gravity)
+//        gravity.gravityDirection = CGVectorMake(0.0, 0.0) //Thử đổi giá trị x, y của vector xem kết quả thế nào
+//        animator!.addBehavior(gravity)
         
         collider.translatesReferenceBoundsIntoBoundary = true  //Chuyển reference thành khung để giới hạn chuyển động
         animator!.addBehavior(collider)
@@ -60,5 +60,7 @@ class AttachmentCollision: UIViewController {
         attachmentBehavior!.anchorPoint = sender.locationInView(self.view)
         dragPoint.center = attachmentBehavior!.anchorPoint
     }
+    
+    
 
 }

@@ -18,6 +18,9 @@ class BootLogic: NSObject {
         let mainScreen = MainScreen(style: UITableViewStyle.Grouped)
         
         var basic = [SECTION: "Basic",MENU:[
+            [TITLE: "Gravity",CLASS: "DemoGravity"],
+            [TITLE: "Collision + Gravity",CLASS: "CollisionGravity"],
+            [TITLE: "Attachment + Collision",CLASS: "Attachments___Collision"],
             [TITLE: "DemoPan Gravity",CLASS: "DemoPanGravity"],
             [TITLE: "Simple Gravity",CLASS: "SimpleGravity"],
             [TITLE: "Gravity",CLASS: "Gravity"],

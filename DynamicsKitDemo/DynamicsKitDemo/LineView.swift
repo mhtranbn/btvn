@@ -64,6 +64,8 @@ class LineView: UIView {
                 self.attachmentDecorationLayers.addObject(dashLayer)
             }
         }
+        
+    
         // A word about performance
         // Trackin changes to the properties of any id<UIDynamicItem> involved in
         // a simulator incurs a performance cost. You will receive a callback
