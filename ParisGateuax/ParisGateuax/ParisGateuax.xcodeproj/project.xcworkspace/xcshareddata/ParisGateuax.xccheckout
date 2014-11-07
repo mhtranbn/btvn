@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>54C4091B-2F69-43FE-AD21-42545D206C91</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ParisGateuax</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F85765B34FE52BAA8F54CBFEC5692D08B2300312</key>
+		<string>https://github.com/mhtranbn/btvn</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ParisGateuax/ParisGateuax.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F85765B34FE52BAA8F54CBFEC5692D08B2300312</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mhtranbn/btvn</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F85765B34FE52BAA8F54CBFEC5692D08B2300312</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F85765B34FE52BAA8F54CBFEC5692D08B2300312</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HomeExercise</string>
+		</dict>
+	</array>
+</dict>
+</plist>
