@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32A63B941A188AA400BCCC7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A63B931A188AA400BCCC7E /* Images.xcassets */; };
+		32A63BA31A188AA500BCCC7E /* VictoriaSecretTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A63BA21A188AA500BCCC7E /* VictoriaSecretTests.swift */; };
+		32A63BC11A188AF400BCCC7E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BAF1A188AF400BCCC7E /* 1.jpg */; };
+		32A63BC21A188AF400BCCC7E /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BB01A188AF400BCCC7E /* 2.jpg */; };
+		32A63BC31A188AF400BCCC7E /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BB11A188AF400BCCC7E /* 3.jpg */; };
+		32A63BC41A188AF400BCCC7E /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BB21A188AF400BCCC7E /* 4.jpg */; };
+		32A63BC51A188AF400BCCC7E /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BB31A188AF400BCCC7E /* 5.jpg */; };
+		32A63BC61A188AF400BCCC7E /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BB41A188AF400BCCC7E /* 6.jpg */; };
+		32A63BC71A188AF400BCCC7E /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BB51A188AF400BCCC7E /* 7.jpg */; };
+		32A63BC81A188AF400BCCC7E /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BB61A188AF400BCCC7E /* 8.jpg */; };
+		32A63BC91A188AF400BCCC7E /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BB71A188AF400BCCC7E /* 9.jpg */; };
+		32A63BCA1A188AF400BCCC7E /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BB81A188AF400BCCC7E /* 10.jpg */; };
+		32A63BCB1A188AF400BCCC7E /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BB91A188AF400BCCC7E /* 11.jpg */; };
+		32A63BCC1A188AF400BCCC7E /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BBA1A188AF400BCCC7E /* 12.jpg */; };
+		32A63BCD1A188AF400BCCC7E /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BBB1A188AF400BCCC7E /* 13.jpg */; };
+		32A63BCE1A188AF400BCCC7E /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BBC1A188AF400BCCC7E /* 14.jpg */; };
+		32A63BCF1A188AF400BCCC7E /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BBD1A188AF400BCCC7E /* 15.jpg */; };
+		32A63BD01A188AF400BCCC7E /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BBE1A188AF400BCCC7E /* 16.jpg */; };
+		32A63BD11A188AF400BCCC7E /* 17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BBF1A188AF400BCCC7E /* 17.jpg */; };
+		32A63BD21A188AF400BCCC7E /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BC01A188AF400BCCC7E /* like.png */; };
+		32A63BD41A188B1B00BCCC7E /* Toixinloiem.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BD31A188B1B00BCCC7E /* Toixinloiem.mp3 */; };
+		32A63BD61A188B3600BCCC7E /* AmericanTypewriter.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BD51A188B3600BCCC7E /* AmericanTypewriter.ttc */; };
+		32A63BDA1A188B6200BCCC7E /* VictoriaSecret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A63BD91A188B6200BCCC7E /* VictoriaSecret.swift */; };
+		32A63BDD1A188B7F00BCCC7E /* VictoriaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A63BDB1A188B7F00BCCC7E /* VictoriaVC.swift */; };
+		32A63BDE1A188B7F00BCCC7E /* VictoriaVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BDC1A188B7F00BCCC7E /* VictoriaVC.xib */; };
+		32A63BE01A188B9900BCCC7E /* VictoriaCl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A63BDF1A188B9900BCCC7E /* VictoriaCl.swift */; };
+		32A63BE31A188E6400BCCC7E /* mainmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BE11A188E6400BCCC7E /* mainmenu.png */; };
+		32A63BE41A188E6400BCCC7E /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BE21A188E6400BCCC7E /* search.png */; };
+		32A63BE81A188F8600BCCC7E /* cuong.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BE51A188F8600BCCC7E /* cuong.png */; };
+		32A63BE91A188F8600BCCC7E /* duyle.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BE61A188F8600BCCC7E /* duyle.png */; };
+		32A63BEA1A188F8600BCCC7E /* huaCuong.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A63BE71A188F8600BCCC7E /* huaCuong.png */; };
+		32A63BF01A189BE200BCCC7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A63BEC1A189BE200BCCC7E /* AppDelegate.swift */; };
+		32A63BF11A189BE200BCCC7E /* BootLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A63BED1A189BE200BCCC7E /* BootLogic.swift */; };
+		32A63BF21A189BE200BCCC7E /* ConsoleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A63BEE1A189BE200BCCC7E /* ConsoleScreen.swift */; };
+		32A63BF31A189BE200BCCC7E /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A63BEF1A189BE200BCCC7E /* MainScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32A63B9D1A188AA500BCCC7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A63B7F1A188AA400BCCC7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32A63B861A188AA400BCCC7E;
+			remoteInfo = VictoriaSecret;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32A63B871A188AA400BCCC7E /* VictoriaSecret.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VictoriaSecret.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A63B8B1A188AA400BCCC7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A63B931A188AA400BCCC7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32A63B9C1A188AA500BCCC7E /* VictoriaSecretTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VictoriaSecretTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A63BA11A188AA500BCCC7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A63BA21A188AA500BCCC7E /* VictoriaSecretTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoriaSecretTests.swift; sourceTree = "<group>"; };
+		32A63BAF1A188AF400BCCC7E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		32A63BB01A188AF400BCCC7E /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		32A63BB11A188AF400BCCC7E /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		32A63BB21A188AF400BCCC7E /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		32A63BB31A188AF400BCCC7E /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		32A63BB41A188AF400BCCC7E /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		32A63BB51A188AF400BCCC7E /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		32A63BB61A188AF400BCCC7E /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		32A63BB71A188AF400BCCC7E /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		32A63BB81A188AF400BCCC7E /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		32A63BB91A188AF400BCCC7E /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		32A63BBA1A188AF400BCCC7E /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		32A63BBB1A188AF400BCCC7E /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		32A63BBC1A188AF400BCCC7E /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		32A63BBD1A188AF400BCCC7E /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
+		32A63BBE1A188AF400BCCC7E /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpg; sourceTree = "<group>"; };
+		32A63BBF1A188AF400BCCC7E /* 17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.jpg; sourceTree = "<group>"; };
+		32A63BC01A188AF400BCCC7E /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		32A63BD31A188B1B00BCCC7E /* Toixinloiem.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Toixinloiem.mp3; sourceTree = "<group>"; };
+		32A63BD51A188B3600BCCC7E /* AmericanTypewriter.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = AmericanTypewriter.ttc; sourceTree = "<group>"; };
+		32A63BD81A188B6200BCCC7E /* VictoriaSecret-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VictoriaSecret-Bridging-Header.h"; sourceTree = "<group>"; };
+		32A63BD91A188B6200BCCC7E /* VictoriaSecret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VictoriaSecret.swift; sourceTree = "<group>"; };
+		32A63BDB1A188B7F00BCCC7E /* VictoriaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VictoriaVC.swift; sourceTree = "<group>"; };
+		32A63BDC1A188B7F00BCCC7E /* VictoriaVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VictoriaVC.xib; sourceTree = "<group>"; };
+		32A63BDF1A188B9900BCCC7E /* VictoriaCl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VictoriaCl.swift; sourceTree = "<group>"; };
+		32A63BE11A188E6400BCCC7E /* mainmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainmenu.png; sourceTree = "<group>"; };
+		32A63BE21A188E6400BCCC7E /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		32A63BE51A188F8600BCCC7E /* cuong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuong.png; sourceTree = "<group>"; };
+		32A63BE61A188F8600BCCC7E /* duyle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duyle.png; sourceTree = "<group>"; };
+		32A63BE71A188F8600BCCC7E /* huaCuong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huaCuong.png; sourceTree = "<group>"; };
+		32A63BEC1A189BE200BCCC7E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32A63BED1A189BE200BCCC7E /* BootLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootLogic.swift; sourceTree = "<group>"; };
+		32A63BEE1A189BE200BCCC7E /* ConsoleScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleScreen.swift; sourceTree = "<group>"; };
+		32A63BEF1A189BE200BCCC7E /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32A63B841A188AA400BCCC7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A63B991A188AA500BCCC7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32A63B7E1A188AA400BCCC7E = {
+			isa = PBXGroup;
+			children = (
+				32A63BEB1A189BC500BCCC7E /* Core */,
+				32A63BD71A188B3F00BCCC7E /* Victoria */,
+				32A63BAE1A188AD300BCCC7E /* Font */,
+				32A63BAD1A188ABF00BCCC7E /* Image */,
+				32A63BAC1A188AB500BCCC7E /* Sound */,
+				32A63B891A188AA400BCCC7E /* VictoriaSecret */,
+				32A63B9F1A188AA500BCCC7E /* VictoriaSecretTests */,
+				32A63B881A188AA400BCCC7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32A63B881A188AA400BCCC7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32A63B871A188AA400BCCC7E /* VictoriaSecret.app */,
+				32A63B9C1A188AA500BCCC7E /* VictoriaSecretTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32A63B891A188AA400BCCC7E /* VictoriaSecret */ = {
+			isa = PBXGroup;
+			children = (
+				32A63B931A188AA400BCCC7E /* Images.xcassets */,
+				32A63B8A1A188AA400BCCC7E /* Supporting Files */,
+			);
+			path = VictoriaSecret;
+			sourceTree = "<group>";
+		};
+		32A63B8A1A188AA400BCCC7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32A63B8B1A188AA400BCCC7E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32A63B9F1A188AA500BCCC7E /* VictoriaSecretTests */ = {
+			isa = PBXGroup;
+			children = (
+				32A63BA21A188AA500BCCC7E /* VictoriaSecretTests.swift */,
+				32A63BA01A188AA500BCCC7E /* Supporting Files */,
+			);
+			path = VictoriaSecretTests;
+			sourceTree = "<group>";
+		};
+		32A63BA01A188AA500BCCC7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32A63BA11A188AA500BCCC7E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32A63BAC1A188AB500BCCC7E /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				32A63BD31A188B1B00BCCC7E /* Toixinloiem.mp3 */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+		32A63BAD1A188ABF00BCCC7E /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				32A63BE51A188F8600BCCC7E /* cuong.png */,
+				32A63BE61A188F8600BCCC7E /* duyle.png */,
+				32A63BE71A188F8600BCCC7E /* huaCuong.png */,
+				32A63BE11A188E6400BCCC7E /* mainmenu.png */,
+				32A63BE21A188E6400BCCC7E /* search.png */,
+				32A63BAF1A188AF400BCCC7E /* 1.jpg */,
+				32A63BB01A188AF400BCCC7E /* 2.jpg */,
+				32A63BB11A188AF400BCCC7E /* 3.jpg */,
+				32A63BB21A188AF400BCCC7E /* 4.jpg */,
+				32A63BB31A188AF400BCCC7E /* 5.jpg */,
+				32A63BB41A188AF400BCCC7E /* 6.jpg */,
+				32A63BB51A188AF400BCCC7E /* 7.jpg */,
+				32A63BB61A188AF400BCCC7E /* 8.jpg */,
+				32A63BB71A188AF400BCCC7E /* 9.jpg */,
+				32A63BB81A188AF400BCCC7E /* 10.jpg */,
+				32A63BB91A188AF400BCCC7E /* 11.jpg */,
+				32A63BBA1A188AF400BCCC7E /* 12.jpg */,
+				32A63BBB1A188AF400BCCC7E /* 13.jpg */,
+				32A63BBC1A188AF400BCCC7E /* 14.jpg */,
+				32A63BBD1A188AF400BCCC7E /* 15.jpg */,
+				32A63BBE1A188AF400BCCC7E /* 16.jpg */,
+				32A63BBF1A188AF400BCCC7E /* 17.jpg */,
+				32A63BC01A188AF400BCCC7E /* like.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		32A63BAE1A188AD300BCCC7E /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				32A63BD51A188B3600BCCC7E /* AmericanTypewriter.ttc */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		32A63BD71A188B3F00BCCC7E /* Victoria */ = {
+			isa = PBXGroup;
+			children = (
+				32A63BD91A188B6200BCCC7E /* VictoriaSecret.swift */,
+				32A63BD81A188B6200BCCC7E /* VictoriaSecret-Bridging-Header.h */,
+				32A63BDB1A188B7F00BCCC7E /* VictoriaVC.swift */,
+				32A63BDC1A188B7F00BCCC7E /* VictoriaVC.xib */,
+				32A63BDF1A188B9900BCCC7E /* VictoriaCl.swift */,
+			);
+			name = Victoria;
+			sourceTree = "<group>";
+		};
+		32A63BEB1A189BC500BCCC7E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				32A63BEC1A189BE200BCCC7E /* AppDelegate.swift */,
+				32A63BED1A189BE200BCCC7E /* BootLogic.swift */,
+				32A63BEE1A189BE200BCCC7E /* ConsoleScreen.swift */,
+				32A63BEF1A189BE200BCCC7E /* MainScreen.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32A63B861A188AA400BCCC7E /* VictoriaSecret */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A63BA61A188AA500BCCC7E /* Build configuration list for PBXNativeTarget "VictoriaSecret" */;
+			buildPhases = (
+				32A63B831A188AA400BCCC7E /* Sources */,
+				32A63B841A188AA400BCCC7E /* Frameworks */,
+				32A63B851A188AA400BCCC7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VictoriaSecret;
+			productName = VictoriaSecret;
+			productReference = 32A63B871A188AA400BCCC7E /* VictoriaSecret.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32A63B9B1A188AA500BCCC7E /* VictoriaSecretTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A63BA91A188AA500BCCC7E /* Build configuration list for PBXNativeTarget "VictoriaSecretTests" */;
+			buildPhases = (
+				32A63B981A188AA500BCCC7E /* Sources */,
+				32A63B991A188AA500BCCC7E /* Frameworks */,
+				32A63B9A1A188AA500BCCC7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A63B9E1A188AA500BCCC7E /* PBXTargetDependency */,
+			);
+			name = VictoriaSecretTests;
+			productName = VictoriaSecretTests;
+			productReference = 32A63B9C1A188AA500BCCC7E /* VictoriaSecretTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32A63B7F1A188AA400BCCC7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = mhtran;
+				TargetAttributes = {
+					32A63B861A188AA400BCCC7E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					32A63B9B1A188AA500BCCC7E = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 32A63B861A188AA400BCCC7E;
+					};
+				};
+			};
+			buildConfigurationList = 32A63B821A188AA400BCCC7E /* Build configuration list for PBXProject "VictoriaSecret" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32A63B7E1A188AA400BCCC7E;
+			productRefGroup = 32A63B881A188AA400BCCC7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32A63B861A188AA400BCCC7E /* VictoriaSecret */,
+				32A63B9B1A188AA500BCCC7E /* VictoriaSecretTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32A63B851A188AA400BCCC7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A63BCE1A188AF400BCCC7E /* 14.jpg in Resources */,
+				32A63BCC1A188AF400BCCC7E /* 12.jpg in Resources */,
+				32A63BEA1A188F8600BCCC7E /* huaCuong.png in Resources */,
+				32A63BC61A188AF400BCCC7E /* 6.jpg in Resources */,
+				32A63BC21A188AF400BCCC7E /* 2.jpg in Resources */,
+				32A63B941A188AA400BCCC7E /* Images.xcassets in Resources */,
+				32A63BCB1A188AF400BCCC7E /* 11.jpg in Resources */,
+				32A63BCA1A188AF400BCCC7E /* 10.jpg in Resources */,
+				32A63BDE1A188B7F00BCCC7E /* VictoriaVC.xib in Resources */,
+				32A63BD61A188B3600BCCC7E /* AmericanTypewriter.ttc in Resources */,
+				32A63BC91A188AF400BCCC7E /* 9.jpg in Resources */,
+				32A63BC81A188AF400BCCC7E /* 8.jpg in Resources */,
+				32A63BC71A188AF400BCCC7E /* 7.jpg in Resources */,
+				32A63BC11A188AF400BCCC7E /* 1.jpg in Resources */,
+				32A63BCF1A188AF400BCCC7E /* 15.jpg in Resources */,
+				32A63BE31A188E6400BCCC7E /* mainmenu.png in Resources */,
+				32A63BD21A188AF400BCCC7E /* like.png in Resources */,
+				32A63BC51A188AF400BCCC7E /* 5.jpg in Resources */,
+				32A63BD41A188B1B00BCCC7E /* Toixinloiem.mp3 in Resources */,
+				32A63BC41A188AF400BCCC7E /* 4.jpg in Resources */,
+				32A63BE81A188F8600BCCC7E /* cuong.png in Resources */,
+				32A63BE41A188E6400BCCC7E /* search.png in Resources */,
+				32A63BD01A188AF400BCCC7E /* 16.jpg in Resources */,
+				32A63BD11A188AF400BCCC7E /* 17.jpg in Resources */,
+				32A63BC31A188AF400BCCC7E /* 3.jpg in Resources */,
+				32A63BCD1A188AF400BCCC7E /* 13.jpg in Resources */,
+				32A63BE91A188F8600BCCC7E /* duyle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A63B9A1A188AA500BCCC7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32A63B831A188AA400BCCC7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A63BF01A189BE200BCCC7E /* AppDelegate.swift in Sources */,
+				32A63BF31A189BE200BCCC7E /* MainScreen.swift in Sources */,
+				32A63BDA1A188B6200BCCC7E /* VictoriaSecret.swift in Sources */,
+				32A63BE01A188B9900BCCC7E /* VictoriaCl.swift in Sources */,
+				32A63BF21A189BE200BCCC7E /* ConsoleScreen.swift in Sources */,
+				32A63BF11A189BE200BCCC7E /* BootLogic.swift in Sources */,
+				32A63BDD1A188B7F00BCCC7E /* VictoriaVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A63B981A188AA500BCCC7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A63BA31A188AA500BCCC7E /* VictoriaSecretTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32A63B9E1A188AA500BCCC7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32A63B861A188AA400BCCC7E /* VictoriaSecret */;
+			targetProxy = 32A63B9D1A188AA500BCCC7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32A63BA41A188AA500BCCC7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32A63BA51A188AA500BCCC7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32A63BA71A188AA500BCCC7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = VictoriaSecret/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VictoriaSecret-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32A63BA81A188AA500BCCC7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = VictoriaSecret/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VictoriaSecret-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		32A63BAA1A188AA500BCCC7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VictoriaSecretTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VictoriaSecret.app/VictoriaSecret";
+			};
+			name = Debug;
+		};
+		32A63BAB1A188AA500BCCC7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VictoriaSecretTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VictoriaSecret.app/VictoriaSecret";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32A63B821A188AA400BCCC7E /* Build configuration list for PBXProject "VictoriaSecret" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A63BA41A188AA500BCCC7E /* Debug */,
+				32A63BA51A188AA500BCCC7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A63BA61A188AA500BCCC7E /* Build configuration list for PBXNativeTarget "VictoriaSecret" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A63BA71A188AA500BCCC7E /* Debug */,
+				32A63BA81A188AA500BCCC7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32A63BA91A188AA500BCCC7E /* Build configuration list for PBXNativeTarget "VictoriaSecretTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A63BAA1A188AA500BCCC7E /* Debug */,
+				32A63BAB1A188AA500BCCC7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32A63B7F1A188AA400BCCC7E /* Project object */;
+}
