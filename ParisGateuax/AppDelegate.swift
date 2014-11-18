@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  DemoClass
 //
-//  Created by techmaster on 8/22/14.
-//  Copyright (c) 2014 Techmaster. All rights reserved.
+//  Created by mhtran on 11/3/14.
+//  Copyright (c) 2014 mhtran. All rights reserved.
 //
 
 import UIKit
@@ -15,6 +15,9 @@ class AppDelegate:  UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
+        
+       
+        //self.viewColtroler = MenuVC(nibName: "DetailVC", bundle: nil)
         
         var tabBarBackGround : UIImage = UIImage(named: "tabbar.png")!
         UITabBar.appearance().backgroundImage = tabBarBackGround

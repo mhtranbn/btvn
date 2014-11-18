@@ -25,6 +25,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Chalkboard.ttc</string>
+		<string>Zapfino.ttf</string>
 	</array>
 </dict>
 </plist>

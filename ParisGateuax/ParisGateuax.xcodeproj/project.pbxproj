@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3231F1EC1A19E0BF00AFFCC9 /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231F1EB1A19E0BF00AFFCC9 /* DetailScreen.swift */; };
+		3231F1EF1A19E0D900AFFCC9 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231F1ED1A19E0D900AFFCC9 /* DetailVC.swift */; };
+		3231F1F01A19E0D900AFFCC9 /* DetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3231F1EE1A19E0D900AFFCC9 /* DetailVC.xib */; };
+		3231F1F21A19E0F900AFFCC9 /* DetailStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231F1F11A19E0F900AFFCC9 /* DetailStr.swift */; };
+		3231F1F41A1A18BD00AFFCC9 /* DetailBith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231F1F31A1A18BD00AFFCC9 /* DetailBith.swift */; };
 		3237456B1A0CA2C600278940 /* ShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237456A1A0CA2C600278940 /* ShopData.swift */; };
 		3237456D1A0CA8AE00278940 /* nh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3237456C1A0CA8AE00278940 /* nh.jpg */; };
+		324E79F91A1A841F006BCDBD /* GateUaxData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 324E79F81A1A841F006BCDBD /* GateUaxData.plist */; };
 		32658E331A06B44E00F31DAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32658E321A06B44E00F31DAA /* Images.xcassets */; };
 		32658E421A06B44E00F31DAA /* ParisGateuaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32658E411A06B44E00F31DAA /* ParisGateuaxTests.swift */; };
 		32658E591A06B4C100F31DAA /* cookies01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32658E4F1A06B4C100F31DAA /* cookies01.jpg */; };
@@ -74,8 +80,6 @@
 		32658ED01A06B54700F31DAA /* selection-tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32658ECC1A06B54700F31DAA /* selection-tab@2x.png */; };
 		32658ED11A06B54700F31DAA /* selection-tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 32658ECD1A06B54700F31DAA /* selection-tab.png */; };
 		32658ED41A06B5A800F31DAA /* ParisGateuax.png in Resources */ = {isa = PBXBuildFile; fileRef = 32658ED31A06B5A800F31DAA /* ParisGateuax.png */; };
-		32658EDF1A06B71300F31DAA /* ParisGateuax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32658EDE1A06B71300F31DAA /* ParisGateuax.swift */; };
-		32658EE11A06BC9600F31DAA /* ParisGateuax.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32658EE01A06BC9600F31DAA /* ParisGateuax.storyboard */; };
 		32658EE71A06C3B400F31DAA /* birthdayCake.png in Resources */ = {isa = PBXBuildFile; fileRef = 32658EE21A06C3B400F31DAA /* birthdayCake.png */; };
 		32658EE81A06C3B400F31DAA /* cookies.png in Resources */ = {isa = PBXBuildFile; fileRef = 32658EE31A06C3B400F31DAA /* cookies.png */; };
 		32658EE91A06C3B400F31DAA /* iceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 32658EE41A06C3B400F31DAA /* iceCream.png */; };
@@ -86,11 +90,9 @@
 		32658EF51A06DC2600F31DAA /* ContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32658EF31A06DC2600F31DAA /* ContactVC.swift */; };
 		32658F011A06DCB200F31DAA /* ShopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32658EFF1A06DCB200F31DAA /* ShopVC.swift */; };
 		32658F051A06DCC200F31DAA /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32658F031A06DCC200F31DAA /* AboutVC.swift */; };
-		32658F421A06E39C00F31DAA /* BootLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32658F3F1A06E39C00F31DAA /* BootLogic.swift */; };
-		32658F431A06E39C00F31DAA /* ConsoleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32658F401A06E39C00F31DAA /* ConsoleScreen.swift */; };
-		32658F441A06E39C00F31DAA /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32658F411A06E39C00F31DAA /* MainScreen.swift */; };
 		32658F461A06E3C700F31DAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32658F451A06E3C700F31DAA /* AppDelegate.swift */; };
-		32C17D201A089B97008F6BF2 /* MainStoryBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C17D1F1A089B97008F6BF2 /* MainStoryBoardVC.swift */; };
+		327D8DB51A1A796C00F34564 /* MenuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327D8DB41A1A796C00F34564 /* MenuData.swift */; };
+		32E636691A1B515200C36D25 /* Zapfino.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32E636681A1B515200C36D25 /* Zapfino.ttf */; };
 		32EA5C8F1A0975E0004BADA0 /* Chalkboard.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 32EA5C8E1A0975E0004BADA0 /* Chalkboard.ttc */; };
 /* End PBXBuildFile section */
 
@@ -105,8 +107,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3231F1EB1A19E0BF00AFFCC9 /* DetailScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		3231F1ED1A19E0D900AFFCC9 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		3231F1EE1A19E0D900AFFCC9 /* DetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailVC.xib; sourceTree = "<group>"; };
+		3231F1F11A19E0F900AFFCC9 /* DetailStr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailStr.swift; sourceTree = "<group>"; };
+		3231F1F31A1A18BD00AFFCC9 /* DetailBith.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailBith.swift; sourceTree = "<group>"; };
 		3237456A1A0CA2C600278940 /* ShopData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopData.swift; sourceTree = "<group>"; };
 		3237456C1A0CA8AE00278940 /* nh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nh.jpg; sourceTree = "<group>"; };
+		324E79F81A1A841F006BCDBD /* GateUaxData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GateUaxData.plist; sourceTree = "<group>"; };
 		32658E261A06B44E00F31DAA /* ParisGateuax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParisGateuax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32658E2A1A06B44E00F31DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32658E321A06B44E00F31DAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -176,8 +184,6 @@
 		32658ECC1A06B54700F31DAA /* selection-tab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selection-tab@2x.png"; sourceTree = "<group>"; };
 		32658ECD1A06B54700F31DAA /* selection-tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selection-tab.png"; sourceTree = "<group>"; };
 		32658ED31A06B5A800F31DAA /* ParisGateuax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ParisGateuax.png; sourceTree = "<group>"; };
-		32658EDE1A06B71300F31DAA /* ParisGateuax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParisGateuax.swift; path = ParisGateuax/ParisGateuax.swift; sourceTree = "<group>"; };
-		32658EE01A06BC9600F31DAA /* ParisGateuax.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ParisGateuax.storyboard; sourceTree = "<group>"; };
 		32658EE21A06C3B400F31DAA /* birthdayCake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = birthdayCake.png; sourceTree = "<group>"; };
 		32658EE31A06C3B400F31DAA /* cookies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cookies.png; sourceTree = "<group>"; };
 		32658EE41A06C3B400F31DAA /* iceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iceCream.png; sourceTree = "<group>"; };
@@ -188,11 +194,9 @@
 		32658EF31A06DC2600F31DAA /* ContactVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactVC.swift; sourceTree = "<group>"; };
 		32658EFF1A06DCB200F31DAA /* ShopVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopVC.swift; sourceTree = "<group>"; };
 		32658F031A06DCC200F31DAA /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
-		32658F3F1A06E39C00F31DAA /* BootLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootLogic.swift; sourceTree = "<group>"; };
-		32658F401A06E39C00F31DAA /* ConsoleScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleScreen.swift; sourceTree = "<group>"; };
-		32658F411A06E39C00F31DAA /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		32658F451A06E3C700F31DAA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32C17D1F1A089B97008F6BF2 /* MainStoryBoardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainStoryBoardVC.swift; sourceTree = "<group>"; };
+		327D8DB41A1A796C00F34564 /* MenuData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuData.swift; sourceTree = "<group>"; };
+		32E636681A1B515200C36D25 /* Zapfino.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Zapfino.ttf; path = ../Zapfino.ttf; sourceTree = "<group>"; };
 		32EA5C8E1A0975E0004BADA0 /* Chalkboard.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chalkboard.ttc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -393,14 +397,18 @@
 		32658ED21A06B55700F31DAA /* ParisGateaux */ = {
 			isa = PBXGroup;
 			children = (
-				32658EDE1A06B71300F31DAA /* ParisGateuax.swift */,
-				32658EE01A06BC9600F31DAA /* ParisGateuax.storyboard */,
 				32658EEF1A06DBCB00F31DAA /* MenuVC.swift */,
 				32658EF31A06DC2600F31DAA /* ContactVC.swift */,
 				32658EFF1A06DCB200F31DAA /* ShopVC.swift */,
 				32658F031A06DCC200F31DAA /* AboutVC.swift */,
-				32C17D1F1A089B97008F6BF2 /* MainStoryBoardVC.swift */,
 				3237456A1A0CA2C600278940 /* ShopData.swift */,
+				3231F1EB1A19E0BF00AFFCC9 /* DetailScreen.swift */,
+				3231F1ED1A19E0D900AFFCC9 /* DetailVC.swift */,
+				3231F1EE1A19E0D900AFFCC9 /* DetailVC.xib */,
+				3231F1F11A19E0F900AFFCC9 /* DetailStr.swift */,
+				3231F1F31A1A18BD00AFFCC9 /* DetailBith.swift */,
+				327D8DB41A1A796C00F34564 /* MenuData.swift */,
+				324E79F81A1A841F006BCDBD /* GateUaxData.plist */,
 			);
 			name = ParisGateaux;
 			sourceTree = "<group>";
@@ -409,9 +417,6 @@
 			isa = PBXGroup;
 			children = (
 				32658F451A06E3C700F31DAA /* AppDelegate.swift */,
-				32658F3F1A06E39C00F31DAA /* BootLogic.swift */,
-				32658F401A06E39C00F31DAA /* ConsoleScreen.swift */,
-				32658F411A06E39C00F31DAA /* MainScreen.swift */,
 				32658EE21A06C3B400F31DAA /* birthdayCake.png */,
 				32658EE31A06C3B400F31DAA /* cookies.png */,
 				32658EE41A06C3B400F31DAA /* iceCream.png */,
@@ -432,6 +437,7 @@
 		32EA5C8D1A0975D3004BADA0 /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				32E636681A1B515200C36D25 /* Zapfino.ttf */,
 				32EA5C8E1A0975E0004BADA0 /* Chalkboard.ttc */,
 			);
 			name = Font;
@@ -517,6 +523,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				324E79F91A1A841F006BCDBD /* GateUaxData.plist in Resources */,
 				32658EEE1A06D8B800F31DAA /* background.mp3 in Resources */,
 				32658ECE1A06B54700F31DAA /* tabbar@2x.png in Resources */,
 				32658E5F1A06B4C100F31DAA /* cookies07.jpg in Resources */,
@@ -559,19 +566,20 @@
 				32658EA91A06B51200F31DAA /* birthday08.JPG in Resources */,
 				32658ED11A06B54700F31DAA /* selection-tab.png in Resources */,
 				32658E331A06B44E00F31DAA /* Images.xcassets in Resources */,
-				32658EE11A06BC9600F31DAA /* ParisGateuax.storyboard in Resources */,
 				32658EA81A06B51200F31DAA /* birthday07.jpg in Resources */,
 				32658E821A06B4D100F31DAA /* ice04.jpg in Resources */,
 				32658ED41A06B5A800F31DAA /* ParisGateuax.png in Resources */,
 				32658E731A06B4D100F31DAA /* cream01.jpg in Resources */,
 				32658EE91A06C3B400F31DAA /* iceCream.png in Resources */,
 				32658EE81A06C3B400F31DAA /* cookies.png in Resources */,
+				32E636691A1B515200C36D25 /* Zapfino.ttf in Resources */,
 				32658E7C1A06B4D100F31DAA /* drink06.jpg in Resources */,
 				32658E5C1A06B4C100F31DAA /* cookies04.jpg in Resources */,
 				32658E951A06B4FD00F31DAA /* bread09.jpg in Resources */,
 				32658E8D1A06B4FD00F31DAA /* bread01.JPG in Resources */,
 				32658EB81A06B52200F31DAA /* 2_2030211939.jpg in Resources */,
 				32658E8E1A06B4FD00F31DAA /* bread02.JPG in Resources */,
+				3231F1F01A19E0D900AFFCC9 /* DetailVC.xib in Resources */,
 				32658ECF1A06B54700F31DAA /* tabbar.png in Resources */,
 				32658E5A1A06B4C100F31DAA /* cookies02.jpg in Resources */,
 				32658EEB1A06C3B400F31DAA /* muffin.png in Resources */,
@@ -607,14 +615,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32C17D201A089B97008F6BF2 /* MainStoryBoardVC.swift in Sources */,
-				32658EDF1A06B71300F31DAA /* ParisGateuax.swift in Sources */,
-				32658F441A06E39C00F31DAA /* MainScreen.swift in Sources */,
+				3231F1EC1A19E0BF00AFFCC9 /* DetailScreen.swift in Sources */,
 				32658F011A06DCB200F31DAA /* ShopVC.swift in Sources */,
 				32658F461A06E3C700F31DAA /* AppDelegate.swift in Sources */,
-				32658F421A06E39C00F31DAA /* BootLogic.swift in Sources */,
-				32658F431A06E39C00F31DAA /* ConsoleScreen.swift in Sources */,
 				32658F051A06DCC200F31DAA /* AboutVC.swift in Sources */,
+				327D8DB51A1A796C00F34564 /* MenuData.swift in Sources */,
+				3231F1EF1A19E0D900AFFCC9 /* DetailVC.swift in Sources */,
+				3231F1F21A19E0F900AFFCC9 /* DetailStr.swift in Sources */,
+				3231F1F41A1A18BD00AFFCC9 /* DetailBith.swift in Sources */,
 				3237456B1A0CA2C600278940 /* ShopData.swift in Sources */,
 				32658EF51A06DC2600F31DAA /* ContactVC.swift in Sources */,
 				32658EF11A06DBCB00F31DAA /* MenuVC.swift in Sources */,
