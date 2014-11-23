@@ -92,8 +92,8 @@
 		32658F051A06DCC200F31DAA /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32658F031A06DCC200F31DAA /* AboutVC.swift */; };
 		32658F461A06E3C700F31DAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32658F451A06E3C700F31DAA /* AppDelegate.swift */; };
 		327D8DB51A1A796C00F34564 /* MenuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327D8DB41A1A796C00F34564 /* MenuData.swift */; };
-		32E636691A1B515200C36D25 /* Zapfino.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32E636681A1B515200C36D25 /* Zapfino.ttf */; };
 		32EA5C8F1A0975E0004BADA0 /* Chalkboard.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 32EA5C8E1A0975E0004BADA0 /* Chalkboard.ttc */; };
+		32EB1F5F1A1B93DD0053C970 /* Zapfino.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32EB1F5E1A1B93DD0053C970 /* Zapfino.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -196,8 +196,8 @@
 		32658F031A06DCC200F31DAA /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
 		32658F451A06E3C700F31DAA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		327D8DB41A1A796C00F34564 /* MenuData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuData.swift; sourceTree = "<group>"; };
-		32E636681A1B515200C36D25 /* Zapfino.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Zapfino.ttf; path = ../Zapfino.ttf; sourceTree = "<group>"; };
 		32EA5C8E1A0975E0004BADA0 /* Chalkboard.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chalkboard.ttc; sourceTree = "<group>"; };
+		32EB1F5E1A1B93DD0053C970 /* Zapfino.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zapfino.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -437,7 +437,7 @@
 		32EA5C8D1A0975D3004BADA0 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				32E636681A1B515200C36D25 /* Zapfino.ttf */,
+				32EB1F5E1A1B93DD0053C970 /* Zapfino.ttf */,
 				32EA5C8E1A0975E0004BADA0 /* Chalkboard.ttc */,
 			);
 			name = Font;
@@ -572,7 +572,7 @@
 				32658E731A06B4D100F31DAA /* cream01.jpg in Resources */,
 				32658EE91A06C3B400F31DAA /* iceCream.png in Resources */,
 				32658EE81A06C3B400F31DAA /* cookies.png in Resources */,
-				32E636691A1B515200C36D25 /* Zapfino.ttf in Resources */,
+				32EB1F5F1A1B93DD0053C970 /* Zapfino.ttf in Resources */,
 				32658E7C1A06B4D100F31DAA /* drink06.jpg in Resources */,
 				32658E5C1A06B4C100F31DAA /* cookies04.jpg in Resources */,
 				32658E951A06B4FD00F31DAA /* bread09.jpg in Resources */,
